@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+<form id="delivery">
+    <label for="name"> Nome </label>
+    <input id="name" type="text" name="name" placeholder="Nome"><!--per selezionare un nome-->
+
+    <label for="lastname"> cognome </label>
+    <input id="lastname" type="text" name="lastname" placeholder="Cognome"><!--per selezionare un cognome-->
+
+    <label for="address">Indirizzo</label>
+    <input type="text" name="address" id="address" placeholder="via tal dei tali"><!--per selezionare un indirizzo-->
+
+    <label for="po">Civico</label>
+    <input type="number" name="po" id="po" placeholder="1"><!--per selezionare un civico-->
+
+    <label for="Cap">Cap</label>
+    <input type="number" name="Cap" id="Cap" placeholder="00000"><!--per selezionale un cap-->
+
+    <label for="city">City</label>
+    <input type="text" name="city" id="city" placeholder="Milano"><!--per selezionare una città-->
+
+    <label for="country">Nazione</label>
+    <input type="text" name="country" id="country" placeholder="Italia"><!--per selezionare una nazione-->
+
+    <label for="province">Provincia</label> <!--per selezionare una provincia-->
+    <select name="province" id="province">
+        <option value="MI">Milano</option>
+        <option value="RM">Roma</option>
+        <option value="TR">Torino</option>
+        <option value="OTHER">Altro</option>
+    </select>
+
+    <label for="phone">Telefono</label>
+    <input type="tel" name="phone" id="phone" placeholder="3330003331"><!-- per mettere il numero di telefono-->
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="tua@mail.it"><!-- per mettere l'email-->
+
+    <label for="note">Note</label>
+    <textarea name="note" id="note" cols="30" rows="10" placeholder="Note"></textarea><!--per inserire una textarea-->
+
+    <input type="submit" value="invia"> <!--per inserire un tasto invia-->
+
+
+    <div>div</div>
+    <div>div</div>
+    <div>div</div>
+    <div>div</div>
+    <div>div</div>
+    <br><!--div l'emento principale per disporre inblock-->
+
+    <span>span</span>
+    <span>span</span>
+    <span>span</span>
+    <span>span</span>
+    <span>span</span>
+    <span>span</span><!--span l'emento principale per disporre inline-->
+
+</form>
+<button type="reset"form="delivery">Reset</button><!-- per inserire un tasto di reset-->
+</body>
+</html>
