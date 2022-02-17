@@ -1,0 +1,33 @@
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    color: aqua;
+    background-color: chartreuse;
+}
+
+p {
+    color: initial;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    /*font-size: unset;*/
+    font-weight: unset;
+}
+
+header {
+    background-color: orange;
+    margin: 60px;
+    border: dotted 5px red;
+    border-radius: 50%;
+    padding: 40px;
+    width: 500px;
+    height: 500px;
+    border-image: linear-gradient(red,blue);
+    border-image-repeat: space;
+
+}
+abbr {
+    text-decoration: initial;
+}

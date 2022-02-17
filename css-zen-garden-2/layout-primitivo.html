@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+    <style>
+
+        .container {
+            border: green 1px solid;
+        }
+
+        .float-element > div {
+            border: 1px solid red;
+            float: left;
+            margin: 0.2em;
+            padding: 0;
+        }
+
+        #inner-1 {
+            width: calc(70% - 1px);
+        }
+
+        #inner-2 {
+            width: calc(30% - 1px);
+        }
+
+        .clearfix {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id="inner-1" class="float-element">
+        left
+    </div>
+    <div id="inner-2" class="float-element">
+        right
+    </div>
+    <div &nbsp; class="clearfix">&nbsp;</div>
+</div>
+<div>test</div>
+
+</body>
+</html>
